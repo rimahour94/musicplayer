@@ -1,0 +1,84 @@
+/* root */
+html {
+    --themecolor: rgb(29, 34, 54);
+    --theme-width: 95%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: var(--themecolor, rgb(29, 34, 54));
+}
+
+/* header section start */
+#header {
+    background: linear-gradient(to bottom, rgb(41 49 78), transparent);
+    display: flex;
+    box-shadow: 0px 0px 13px 0px #80808059;
+    color: white;
+    justify-content: space-between;
+    padding: 14px 26px;
+    position: fixed;
+    width: var(--theme-width);
+    align-items: center;
+    margin-left: 14px;
+}
+
+.logo-header {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 145px;
+    align-items: center;
+}
+
+.header-profile {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search-input {
+    border-radius: 6px;
+    padding: 8px 28px;
+    position: relative;
+    background-color: rgb(39 51 92);
+    border: none;
+    opacity: 0.8;
+    width: 190px;
+    color: white;
+    outline: none;
+}
+
+#left-icon {
+    position: absolute;
+    color: grey;
+    z-index: 1;
+    left: 6px;
+    top: 8px;
+}
+
+.search-icon-container {
+    position: relative;
+}
+
+#right-icon {
+    position: absolute;
+    z-index: 1;
+    color: grey;
+    right: 9px;
+    top: 6px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 58px;
+    height: 55px;
+    background: url("./images/pexels-yuri-félix-17831893.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* header section end */
